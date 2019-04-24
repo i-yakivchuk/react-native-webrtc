@@ -1,0 +1,2 @@
+export const isCallsTabActive = (state) => state.userNav.index === 0 && state.userNav.routes[0].index === 0;
+export const isTalksTabActive = (state) => state.userNav.index === 0 && state.userNav.routes[0].index === 1;
